@@ -2,8 +2,9 @@ name: Patcher
 
 on:
   push:
-    branches: [ "v*", "master" ]
-    paths: [ "patcher/**/*" ]
+    # branches: [ "v*", "master" ]
+    tags: [ "v*", "master" ]
+    # paths: [ "patcher/**/*" ]
   pull_request:
     branches: [ "v*", "master" ]
     paths: [ "patcher/**/*" ]
